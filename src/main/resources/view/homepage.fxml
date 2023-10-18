@@ -80,7 +80,7 @@
                                 <Image url="@../images/orders.png" />
                             </image>
                         </ImageView>
-                        <JFXButton layoutX="28.0" layoutY="91.0" prefHeight="37.0" prefWidth="237.0" style="-fx-background-color: white; -fx-background-radius: 10px;" text="Orders">
+                        <JFXButton layoutX="28.0" layoutY="91.0" onAction="#btnOrdersOnAction" prefHeight="37.0" prefWidth="237.0" style="-fx-background-color: white; -fx-background-radius: 10px;" text="Orders">
                             <font>
                                 <Font name="Georgia Bold" size="21.0" />
                             </font>

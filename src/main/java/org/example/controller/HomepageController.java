@@ -40,4 +40,13 @@ public class HomepageController implements Initializable {
         );
         pieChartHomepage.setData(pieObservableList);
     }
+
+    public void btnOrdersOnAction(ActionEvent actionEvent) throws IOException {
+        parent= FXMLLoader.load(getClass().getResource("/view/placeOrderPage.fxml"));
+        stage= (Stage) ((Node)actionEvent.getSource()).getScene().getWindow();
+        scene=new Scene(parent);
+
+        stage.setScene(scene);
+        stage.show();
+    }
 }
